@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>商務控制後台</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <style>
+    html {
+      font-size: 14px;
+    }
+
+    .main {
+      min-height: calc(100vh - (49px + 49px + 42px + 18px))
+    }
+  </style>
+  <!-- JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+  <script src="https://cdn.ckeditor.com/4.8.0/standard/ckeditor.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="/dashboard/">Blog 控制台</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+      aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        
+        <a class="nav-item nav-link active" href="archives.html">文章管理 </a>
+        <a class="nav-item nav-link " href="categories.html">分類管理 </a>
+        
+      </div>
+    </div>
+    <a class="nav-link" href="#">登出</a>
+  </nav>
+  <div class="main container-fluid my-4">
+    
+
+<div class="row justify-content-center">
+  <div class="col-md-6">
+    
+
+    
+
+    <div class="btn-group w-100">
+      <a href="#" class="btn btn-outline-secondary w-100 rounded-0 active">已發佈</a>
+      <a href="#" class="btn btn-outline-secondary w-100 rounded-0 ">草稿</a>
+      <a href="article.html" class="btn btn-primary">新增文章</a>
+    </div>
+
+    
+      <div class="card my-3">
+        <h4 class="card-header">
+          補充課程：Sass 與 includePaths
+        </h4>
+        <div class="card-body">
+          [程式][PHP] HTML 表單(Form)以陣列(Array)方式傳遞&lt;input&nbsp;type=&#39;text&#39;&gt;資訊。 什麼時候會用到這樣的方法，我無法明確表達，可能要靠你自己想像。 我遇到的狀況是要讓user不斷的新增商品與價格。 第一種做法：&nbsp;.....
+          <div>
+            <span class="fa fa-clock-o"></span> 
+            2018/01/04
+            ,
+            <span class="fa fa-folder-open-o"></span>
+            <span>
+              
+                沒有分類
+              
+            </span>
+          </div>
+        </div>
+        <div class="card-footer p-0 btn-group">
+          <a href="#" class="btn btn-outline-danger rounded-0 deletePost" data-id="-L1zrsyiWCAbMQ5x8Plk" data-title="補充課程：Sass 與 includePaths">刪除</a>
+          <a href="#" class="btn btn-outline-secondary w-100 rounded-0">編輯</a>
+          
+          <a href="#" target="_blank" class="btn btn-outline-secondary w-100 rounded-0">預覽</a>
+          
+        </div>
+      </div>
+    
+  </div>
+</div>
+
+
+<nav class="my-5" aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link" href="/dashboard/archives" tabindex="-1">Previous</a>
+    </li>
+    
+      <li class="page-item active"> 
+        <a class="page-link" href="/dashboard/archives">
+          1
+        </a>
+      </li>
+    
+      <li class="page-item "> 
+        <a class="page-link" href="/dashboard/archives">
+          2
+        </a>
+      </li>
+    
+    <li class="page-item ">
+      <a class="page-link" href="/dashboard/archives">Next</a>
+    </li>
+  </ul>
+</nav>
+  </div>
+
+  <footer class="mt-5 py-3 bg-light text-secondary text-center">
+    六角學院後台管理系統
+  </footer>
+</body>
+
+</html>
